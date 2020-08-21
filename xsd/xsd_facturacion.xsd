@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+       <xs:element name="area_contable">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="factura" maxOccurs="unbounded">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="nombre_cliente" type="xs:string"></xs:element>
+                                                 <xs:element name="nit" type="xs:int"></xs:element>
+                                                 <xs:element name="fecha" type="xs:string"></xs:element>
+                                                 <xs:element name="ciudad" type="xs:string"></xs:element>
+                                                 <xs:element name="sede" type="xs:string"></xs:element>
+                                                 <xs:element name="encargado" type="xs:string"></xs:element>
+                                                 <xs:element name="identificacion_encargado" type="xs:int"></xs:element>
+                                                 <xs:element name="direccion" type="xs:string"></xs:element>
+                                                 <xs:element name="items">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="item" maxOccurs="unbounded">
+                                                                             <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                           <xs:element name="nombre" type="xs:string"></xs:element>
+                                                                                           <xs:element name="unidades" type="xs:int"></xs:element>
+                                                                                           <xs:element name="valor_unidad" type="xs:int"></xs:element>
+                                                                                       </xs:sequence>
+                                                                                    <xs:attribute name="id" type="xs:int"></xs:attribute>
+                                                                                </xs:complexType>
+                                                                         </xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                                 <xs:element name="domicilio" type="xs:string"></xs:element>
+                                             </xs:sequence>
+                                          <xs:attribute name="id" type="xs:int"></xs:attribute>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>

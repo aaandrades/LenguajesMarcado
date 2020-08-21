@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="igac" id="igac">
+	<SimpleField name="fid" type="string"></SimpleField>
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="Nombre" type="string"></SimpleField>
+	<SimpleField name="Descripcio" type="string"></SimpleField>
+</Schema>
+<Folder><name>igac</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#igac">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="Nombre">Estadio El Campín</SimpleData>
+		<SimpleData name="Descripcio">Lugar donde se practican diferentes eventos en la ciudad.</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0775741802788,4.64586945410186,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#igac">
+		<SimpleData name="id">2</SimpleData>
+		<SimpleData name="Nombre">Coliseo El Campin</SimpleData>
+		<SimpleData name="Descripcio">Lugar reducido para la presentacion de eventos de menor escala.</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0772965691421,4.6493388253918,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#igac">
+		<SimpleData name="id">3</SimpleData>
+		<SimpleData name="Nombre">Museo Geológico Nacional</SimpleData>
+		<SimpleData name="Descripcio">Museo donde se exponen diferentes descubrimientos geológicos de Colombia.</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0803502916449,4.64095270849662,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#igac">
+		<SimpleData name="id">4</SimpleData>
+		<SimpleData name="Nombre">Hemeroteca Nacional</SimpleData>
+		<SimpleData name="Descripcio">Edificio donde se encuentran diferentes referentes de literatura.</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0911557712702,4.63667447341294,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#igac">
+		<SimpleData name="id">5</SimpleData>
+		<SimpleData name="Nombre">Club de Tenis El Campín</SimpleData>
+		<SimpleData name="Descripcio">Lugar deportivo donde se practica Tenis.</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0754120166186,4.64811496937113,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

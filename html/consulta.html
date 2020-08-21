@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS</title>
+    <link rel="stylesheet" type="text/css" href="../css/consulta.css">
+
+</head>
+
+
+<body>
+    <h1>WMS IDESC</h1>
+    <h2 style="color: white;">CONSTRUCCIONES</h2>
+    <div class="row">
+        <div class="left card" style="text-align: center;">
+            <img src="http://idesc.cali.gov.co:8081/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=catastro:cat_construcciones&styles=&bbox=1051662.25,858959.0,1068549.0,882825.625&width=432&height=512&srs=EPSG:6249&format=image/jpeg" alt="imagen"
+            />
+            <!-- <img src="https://serviciosgis.catastrobogota.gov.co/arcgis/services/Mapa_Referencia/Mapa_Referencia/MapServer/WMSServer?service=WMS&version=1.1.0&request=GetMap&layers=22&styles=&bbox=3.729332,-74.833457,5.297625,-73.054646&width=432&height=512&srs=EPSG:4326&format=image/jpeg"
+                alt="imagen" /> -->
+        </div>
+
+        <div class="right card">
+            <h2>Construcciones Catastro de Cali</h2>
+            <h3>
+                <a href='http://idesc.cali.gov.co:8081/geoserver/wms?service=WMS&version=1.1.0&request=GetCapabilities'>Metadato</a></h3>
+            <h3>
+                <a target="_blank" href='http://idesc.cali.gov.co:8081/geoserver/wms?service=WMS&version=1.1.0&request=GetFeatureInfo&layers=catastro:cat_construcciones&query_layers=catastro:cat_construcciones&styles=&bbox=1051662.25,858959.0,1068549.0,882825.625&width=432&height=512&srs=EPSG:6249&format=image/jpeg&x=179&y=120'>Atributos (179,120)</a>
+            </h3>
+        </div>
+        <div class="right cards">
+            <h3>Leyenda</h3>
+            <img src='http://idesc.cali.gov.co:8081/geoserver/wms?service=WMS&version=1.1.0&request=GetLegendGraphic&layer=catastro:cat_construcciones&width=20&height=20&format=image/jpeg' alt="leyenda" />
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>

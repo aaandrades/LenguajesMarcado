@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    <link rel="stylesheet" type="text/css" href="../css/mapa.css">
+</head>
+
+<body>
+    <h1>
+        MAPA TUÍSTICO </h1>
+    <div class="row">
+        <div class="left card" style="text-align: center;">
+            <img src="../assets/mapa.png" alt="Parque del Café" usemap="#mapa" />
+            <map id="mapa" name="mapa">
+                <area shape="circle" coords="121,312,20" target="_blank" alt="capilla" href="https://parquedelcafe.com/"  title="Ingreso"/>
+                <area shape="circle" coords="621,34,20" target="_blank"  alt="Carros Chocones" href="https://parquedelcafe.co/es/content/carros-chocones"  title="Carros Chocones"/>
+                <area shape="circle" coords="612,117,20" target="_blank" alt="Estación del Tren Montenegro" href="https://parquedelcafe.co/es/content/estacion-del-tren"  title="Estación Tren Montenegro"/>
+                
+                <area shape="rect" coords="483,155,591,206" target="_blank" alt="krate" href="https://parquedelcafe.co/es/content/krater"  title="Krate"/>
+                <area shape="rect" coords="328,175,451,243" target="_blank" alt="Montaña Rusa" href="https://parquedelcafe.co/es/content/montana-rusa"  title="Montaña Rusa"/>
+                <area shape="rect" coords="59,205,128,249" target="_blank" alt="Bosque de Mitos y Leyendas" href="https://parquedelcafearmenia.com/atracciones-parque/bosque-de-mitos-y-leyendas/"  title="Bosque de Mitos y Leyendas"/>
+                
+                <area shape="poly" coords="163,83,145,117,213,116,205,86" target="_blank" alt="Plaza de Bolivar" href="https://parquedelcafe.co/es/content/plaza-de-bolivar"  title="Plaza de Bolivar"/>
+                <area shape="poly" coords="393,64,406,42,434,44,451,52,424,76" target="_blank" alt="Pista de Karts" href="https://parquedelcafearmenia.com/atracciones-parque/karts/"  title="Pista de Karts"/>
+                <area shape="poly" coords="50,44,50,66,73,63,75,48" target="_blank" alt="Ciclon" href="https://parquedelcafe.co/es/content/ciclon"  title="Ciclón"/>
+            </map>
+        </div>
+
+        <div class="right card">
+            <h2>Puntos</h2>
+            <p>
+                Capilla - Ingreso <br> Carros Chocones<br> Estación del Tren Montenegro<br>
+            </p>
+            <h2>
+                Rectángulos
+            </h2>
+            <p>
+                Krater<br> Montaña Rusa <br> Bosques de Mitos y Leyendas<br>
+            </p>
+            <h2>
+                Polígonos
+            </h2>
+            <p>
+                Plaza de Bolivar <br> Pista de Karts <br> Ciclon<br>
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

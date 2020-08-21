@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<area_contable>
+    <factura id="1">
+        <nombre_cliente>Construcciones Mayarino</nombre_cliente>
+        <nit>900768576</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Chapinero</sede>
+        <encargado>Andrés Andrade</encargado>
+        <identificacion_encargado>1032482611</identificacion_encargado>
+        <direccion>Avenida Siempre viva # 123</direccion>
+        <items>
+            <item id="1">
+                <nombre>Board Asrock</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>250000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="2">
+        <nombre_cliente>Manpower</nombre_cliente>
+        <nit>900646473</nit>
+        <fecha>7/16/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Usaquen</sede>
+        <encargado>Nombre de Persona</encargado>
+        <identificacion_encargado>123123123</identificacion_encargado>
+        <direccion>Calle 29 #52b 24 sur</direccion>
+        <items>
+            <item id="1">
+                <nombre>Fuente de Poder x450w</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>300000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>SI</domicilio>
+    </factura>
+    <factura id="3">
+        <nombre_cliente>Andres Perilla</nombre_cliente>
+        <nit>103232323232</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Medellin</ciudad>
+        <sede>El Paso</sede>
+        <encargado>Andres Perilla</encargado>
+        <identificacion_encargado>103232323232</identificacion_encargado>
+        <direccion>Avenida las palmas 52 - 15</direccion>
+        <items>
+            <item id="1">
+                <nombre>Mouse Gamer</nombre>
+                <unidades>2</unidades>
+                <valor_unidad>45000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="4">
+        <nombre_cliente>Pepe tecnologia</nombre_cliente>
+        <nit>900768576</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Restrepo</sede>
+        <encargado>Pepe Garcia</encargado>
+        <identificacion_encargado>1019896785</identificacion_encargado>
+        <direccion>Carrera 73 no 15 - 21</direccion>
+        <items>
+            <item id="1">
+                <nombre>teclado</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>50000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="5">
+        <nombre_cliente>Construcciones Mayarino</nombre_cliente>
+        <nit>900768576</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Chapinero</sede>
+        <encargado>Lidia Sánchez</encargado>
+        <identificacion_encargado>83836273</identificacion_encargado>
+        <direccion>Otra Direccion</direccion>
+        <items>
+            <item id="1">hola
+                <nombre>Memoria RAM 2x8GB Corsair</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>370000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="6">
+        <nombre_cliente>Tecnologías Amarillas</nombre_cliente>
+        <nit>900386693</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Chapinero</sede>
+        <encargado>Carlos Gonzales</encargado>
+        <identificacion_encargado>196272672</identificacion_encargado>
+        <direccion>Otra Direccion</direccion>
+        <items>
+            <item id="1">
+                <nombre>Memoria RAM 2x8GB Corsair</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>370000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="7">
+        <nombre_cliente>Construcciones Mayarino</nombre_cliente>
+        <nit>900768576</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Chapinero</sede>
+        <encargado>Andrés Andrade</encargado>
+        <identificacion_encargado>1032482611</identificacion_encargado>
+        <direccion>Avenida Siempre viva # 123</direccion>
+        <items>
+            <item id="1">
+                <nombre>Memoria RAM 2x8GB Corsair</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>370000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="8">
+        <nombre_cliente>Tera Tech</nombre_cliente>
+        <nit>900947383</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Chapinero</sede>
+        <encargado>Alexander Sanchez</encargado>
+        <identificacion_encargado>6111032482</identificacion_encargado>
+        <direccion>Avenida Siempre viva # 123</direccion>
+        <items>
+            <item id="1">
+                <nombre>procesador intel i5 9th</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>450000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="9">
+        <nombre_cliente>Construcciones Mayarino</nombre_cliente>
+        <nit>900768576</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Chapinero</sede>
+        <encargado>Andrés Andrade</encargado>
+        <identificacion_encargado>1032482611</identificacion_encargado>
+        <direccion>Avenida Siempre viva # 123</direccion>
+        <items>
+            <item id="1">
+                <nombre>monster PCI express 3.0</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>550000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+    <factura id="10">
+        <nombre_cliente>Infoshop</nombre_cliente>
+        <nit>909678943</nit>
+        <fecha>7/17/2020</fecha>
+        <ciudad>Bogotá D.C.</ciudad>
+        <sede>Chapinero</sede>
+        <encargado>Jhon Castellanos</encargado>
+        <identificacion_encargado>1067857654</identificacion_encargado>
+        <direccion>Avenida Siempre viva # 123</direccion>
+        <items>
+            <item id="1">
+                <nombre>GTX 1650 ti LP</nombre>
+                <unidades>1</unidades>
+                <valor_unidad>1000</valor_unidad>
+            </item>
+        </items>
+        <domicilio>NO</domicilio>
+    </factura>
+</area_contable>

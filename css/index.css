@@ -1,0 +1,146 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #022F40; */
+    background-image: url('../assets/otro_fondo.jpg');
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.header {
+    border-radius: 10px;
+    padding: 30px;
+    background: linear-gradient(#ffd89b, #19547b);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border: none;
+}
+
+.footer {
+    border-radius: 10px;
+    padding: 30px;
+    background: linear-gradient(#19547b, #ffd89b);
+    text-align: center;
+    color: #160C28;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav_bar {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav_item {
+    width: 100%;
+    background: #19547b;
+    transition: width 2s;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav_item:hover {
+    width: 100%;
+    background-color: #19547b;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.active,
+.nav_item:hover {
+    width: 100%;
+    background-color: #160C28;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.frame {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.card_external {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background: #19547b;
+}
+
+.card {
+    color: white;
+    border-radius: 10px;
+    background: #19547b;
+}
+
+.left {
+    height: 700px;
+    float: left;
+    width: 73%;
+}
+
+.right {
+    height: 700px;
+    margin-left: 1%;
+    float: left;
+    width: 26%;
+    padding: 30px;
+}
+
+.img {
+    float: inherit;
+    width: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Estilo de barra de Scrolling */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

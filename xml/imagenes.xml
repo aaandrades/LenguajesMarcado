@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<area_fotogrametria>
+    <departamento id="3" nombre="Armenia">
+        <imagen id="1">
+            <nombre>LE07_L1TP_009057_19990819_20170217_01_T1</nombre>
+            <fecha_adquisicion>1999/08/19</fecha_adquisicion>
+            <sistema>Landsat</sistema>
+            <programa>7</programa>
+            <sensor>ETM+</sensor>
+            <resolucion_espacial>30</resolucion_espacial>
+            <resolucion_pan>15</resolucion_pan>
+            <resolucion_termal>30</resolucion_termal>
+            <cobertura_nubes>61</cobertura_nubes>
+            <datum>WGS84</datum>
+            <elipsoide>WGS84</elipsoide>
+            <map_projection>UTM</map_projection>
+            <utmzone>18</utmzone>
+            <path>009</path>
+            <row>057</row>
+            <enlace>https://earthexplorer.usgs.gov/metadata/13350/LE70090571999231EDC00/</enlace>
+        </imagen>
+        <imagen id="2">
+            <nombre>LE07_L1TP_008057_20200110_20200205_01_T1</nombre>
+            <fecha_adquisicion>2020/01/10</fecha_adquisicion>
+            <sistema>Landsat</sistema>
+            <programa>7</programa>
+            <sensor>ETM+</sensor>
+            <resolucion_espacial>30</resolucion_espacial>
+            <resolucion_pan>15</resolucion_pan>
+            <resolucion_termal>30</resolucion_termal>
+            <cobertura_nubes>61</cobertura_nubes>
+            <datum>WGS84</datum>
+            <elipsoide>WGS84</elipsoide>
+            <map_projection>UTM</map_projection>
+            <utmzone>18</utmzone>
+            <path>008</path>
+            <row>057</row>
+            <enlace>https://earthexplorer.usgs.gov/metadata/13350/LE70080572020010EDC00/</enlace>
+        </imagen>
+        <imagen id="3">
+            <nombre>LC08_L1TP_009057_20200719_20200719_01_RT</nombre>
+            <fecha_adquisicion>2020/07/19</fecha_adquisicion>
+            <sistema>Landsat</sistema>
+            <programa>8</programa>
+            <sensor>OLI/TIRS</sensor>
+            <resolucion_espacial>30</resolucion_espacial>
+            <resolucion_pan>15</resolucion_pan>
+            <resolucion_termal>30</resolucion_termal>
+            <cobertura_nubes>61</cobertura_nubes>
+            <datum>WGS84</datum>
+            <elipsoide>WGS84</elipsoide>
+            <map_projection>UTM</map_projection>
+            <utmzone>18</utmzone>
+            <path>009</path>
+            <row>057</row>
+            <enlace>https://earthexplorer.usgs.gov/metadata/13400/LC80090572020201LGN00/</enlace>
+        </imagen>
+        <imagen id="4">
+            <nombre>LC08_L1TP_009057_20191224_20200110_01_T1</nombre>
+            <fecha_adquisicion>2019/12/24</fecha_adquisicion>
+            <sistema>Landsat</sistema>
+            <programa>8</programa>
+            <sensor>OLI/TIRS</sensor>
+            <resolucion_espacial>30</resolucion_espacial>
+            <resolucion_pan>15</resolucion_pan>
+            <resolucion_termal>30</resolucion_termal>
+            <cobertura_nubes>61</cobertura_nubes>
+            <datum>WGS84</datum>
+            <elipsoide>WGS84</elipsoide>
+            <map_projection>UTM</map_projection>
+            <utmzone>18</utmzone>
+            <path>009</path>
+            <row>057</row>
+            <enlace>https://earthexplorer.usgs.gov/metadata/13400/LC80090572019358LGN00/</enlace>
+        </imagen>
+        <imagen id="5">
+            <nombre>LE07_L1TP_009057_20200711_20200711_01_RT</nombre>
+            <fecha_adquisicion>2020/07/11</fecha_adquisicion>
+            <sistema>Landsat</sistema>
+            <programa>7</programa>
+            <sensor>ETM+</sensor>
+            <resolucion_espacial>30</resolucion_espacial>
+            <resolucion_pan>15</resolucion_pan>
+            <resolucion_termal>30</resolucion_termal>
+            <cobertura_nubes>61</cobertura_nubes>
+            <datum>WGS84</datum>
+            <elipsoide>WGS84</elipsoide>
+            <map_projection>UTM</map_projection>
+            <utmzone>18</utmzone>
+            <path>009</path>
+            <row>057</row>
+            <enlace>https://earthexplorer.usgs.gov/metadata/13350/LE70090572020193EDC00/</enlace>
+        </imagen>
+    </departamento>
+</area_fotogrametria>
