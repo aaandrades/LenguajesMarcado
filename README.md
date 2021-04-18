@@ -16,10 +16,10 @@ This project its a page with deeper and practical knowledge with differents mark
 - SVG
 - XML
 - XSD
-- 
+  
 ### :alembic: Core Concepts
 - Markup languajes
-- 
+  
 ### :construction: Made with
 - W3 Schools
 
